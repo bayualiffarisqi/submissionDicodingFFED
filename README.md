@@ -12,19 +12,19 @@ jika tidak terbiasa menggunakan node.js, install visual studio code dan install 
 2. buka program dengan menggunakan visual studio code(recomend) atau yang yang lainya.
 3. buka new terminal pada vscode
 4. install seluruh package yang diperlukan, (bisa dilihat di folder pakacge.json pada bagian devDependencies)
-4. ketik pada terminal perintah di bawah 
-     -npm install 
+4. ketik pada terminal perintah di bawah
+#     -npm install 		
    atau bisa juga dengan 
-     -npm install @babel/core @babel/preset-env babel-loader copy-webpack-plugin css-loader html-loader html-webpack-plugin style-loader 
+#     -npm install @babel/core @babel/preset-env babel-loader copy-webpack-plugin css-loader html-loader html-webpack-plugin style-loader 
      webpack webpack-cli webpack-dev-server webpack-merge --save-dev
    atau download satu satu
-     -npm install @babel/core --save-dev
+#     -npm install @babel/core --save-dev
     
    jika mengalami eror, ketik
-     -npm clean chace --force
+#     -npm clean chace --force
    kemudian instal kembali package yang eror saat di install
 6. setelah semua package terinstall ketik kempali perintah berikut untuk menjalankan program
-     -npm run start-dev
+#     -npm run start-dev
 7. selesai, program akan terbuka otomatis di browser
 
 instagram : @aliffarisqi
