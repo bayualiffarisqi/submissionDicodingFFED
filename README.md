@@ -36,3 +36,8 @@ jika tidak terbiasa menggunakan node.js, install visual studio code dan install 
 
 instagram : @aliffarisqi
 
+#output Program
+
+![Screenshot (26)](https://user-images.githubusercontent.com/48192376/84583967-849d1280-ae29-11ea-885d-3de53bad12d6.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/48192376/84583972-87980300-ae29-11ea-8df8-2372d4f7ccce.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/48192376/84583978-8bc42080-ae29-11ea-9d0b-8f669b1bd27a.png)
