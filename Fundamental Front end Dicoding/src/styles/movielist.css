@@ -1,0 +1,115 @@
+movie-list {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    padding: 16px;
+}
+
+movie-list > .placeholder {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+movie-item {
+    background-color: #e9f4ff;
+    margin-bottom: 18px;
+    box-shadow: 0 0 1px 0 rgba(100, 100, 100, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    border: 2px solid white;
+  
+}
+
+movie-item .fan-art-movie {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+    object-position: center; 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info > h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.movie-info > h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.movie-info > p {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+}
+.more-info{
+    display: flex;
+    padding-top: 10px;
+    margin: auto;
+}
+.litle-info{
+    width: 30%;
+    margin: auto;
+}
+ .getMore {
+    text-align: center;
+    width: 55%;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(252, 71, 143);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ .getMore:hover{
+    background-color: rgb(194, 26, 93);
+    font-weight: bold;
+}
+.filter-container{
+    margin-bottom: 10px;
+    width: 100%;
+
+    
+}
+.filterType{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(252, 71, 143);
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+  
+    }
+    .filterType:focus , .filter-container>button{
+        outline: 0;
+    }
+.filter-container > button{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(252, 71, 143);
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.filter-container > button:hover{
+    background-color: rgb(194, 26, 93);
+    font-weight: bold;
+}
