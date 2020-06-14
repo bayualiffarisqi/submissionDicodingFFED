@@ -2,7 +2,8 @@
 ini merupakan web yang di gunakan untuk submission dicoding fundamental we, baca readme untuk menggunakanya
 
 Pada project ini bahasa yang digunakan adalah javascript dengan memanfaatkan webpack untuk module bundler
-menggunakan npm(node package management) dan menggunakan omdb-api untuk menggunakan datanya
+menggunakan npm(node package management) dan menggunakan omdb-api untuk menggunakan datanya.
+pada program ini saya tidak menggunakan framework css seperti bootstrap tapi manual.
 
 # step menggunakanya
 sbelum menggunakan prgram ini pastikan sudah menginstal npm atau node.js sekalian.
